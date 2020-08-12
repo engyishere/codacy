@@ -9,7 +9,7 @@ pipeline {
     stages{
         stage("git checkout"){
             steps{
-                git 'https://github.com/mavenishere/codacy'
+                git 'https://github.com/engyishere/codacy.git'
             }
            
         }
