@@ -5,10 +5,6 @@
 pipeline {
     agent any
 
-    environment {
-        PROJECT_NAME = get_project_name()
-        PR_BRANCH = ""
-    }
 
     stages{
         stage("git checkout"){
